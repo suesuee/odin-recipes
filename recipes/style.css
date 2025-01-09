@@ -1,0 +1,64 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+/* Center align elements with the 'middle' class */
+.middle {
+  text-align: center;
+}
+
+/* Style for the main heading */
+h1 {
+  font-size: 2.5em;
+  color: #444;
+  margin-top: 20px;
+}
+
+/* Style for subheadings */
+h2 {
+  font-size: 1.8em;
+  margin: 20px 0 10px;
+  color: #555;
+}
+
+/* Style for paragraph text */
+p {
+  font-size: 1.2em;
+  margin: 10px auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Style for lists */
+ul,
+ol {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 0;
+  list-style-position: inside;
+}
+
+/* Style for list items */
+li {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Add some padding around the content */
+body > * {
+  padding: 0 10px;
+}
